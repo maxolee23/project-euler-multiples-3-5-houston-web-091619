@@ -10,5 +10,5 @@ def collect_multiples(limit)
 end
 
 def sum_multiples(limit)
-
+  collect_multiples(limit).sum
 end
