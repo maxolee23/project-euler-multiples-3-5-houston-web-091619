@@ -8,3 +8,7 @@ def collect_multiples(limit)
   end
 
 end
+
+def sum_multiples(limit)
+
+end
