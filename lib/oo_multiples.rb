@@ -7,8 +7,8 @@ class Multiples
     @limit = limit
   end
 
-  def collect_multiples(@limit)
-    arr = Array(1...limit)
+  def collect_multiples
+    arr = Array(1...@limit)
 
     multiples = arr.select do |num|
       num % 3 == 0 || num % 5 == 0
@@ -16,8 +16,8 @@ class Multiples
 
   end
 
-  def sum_multiples(@limit)
-    collect_multiples(limit).sum
+  def sum_multiples
+    collect_multiples(@limit).sum
   end
 
 end
