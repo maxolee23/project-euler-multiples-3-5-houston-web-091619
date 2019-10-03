@@ -1,4 +1,4 @@
 # Enter your object-oriented solution here!
-class Multiple 
+class Multiples
 
 end
